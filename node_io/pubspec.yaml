@@ -8,7 +8,10 @@ environment:
   sdk: '>=2.2.0 <3.0.0'
 
 dependencies:
-  node_interop: ^1.1.1
+  node_interop:
+    git:
+      url: https://github.com/SwissCheese5/node-interop.git
+      path: node_interop
   path: ^1.6.2
 
 dev_dependencies:
@@ -16,5 +19,8 @@ dev_dependencies:
   pedantic: ^1.0.0
   test: ^1.0.0
   build_runner: ^1.0.0
-  build_node_compilers: ^0.2.0
   build_test:
+  build_node_compilers:
+    git:
+      url: https://github.com/SwissCheese5/node-interop.git
+      path: build_node_compilers
